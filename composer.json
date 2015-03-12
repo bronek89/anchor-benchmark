@@ -1,0 +1,9 @@
+{
+  "require": {
+    "athletic/athletic": "~0.1"
+  },
+  "autoload": {
+    "psr-0": { "": "src/" }
+  },
+  "name": "benchmark"
+}
