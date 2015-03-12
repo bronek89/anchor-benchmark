@@ -14,7 +14,7 @@ class AnchorBenchmark extends AthleticEvent
     /**
      * @iterations 10000
      */
-    public function fastIndexingAlgo()
+    public function simpleLink()
     {
         $this->linkWrapSimple("test", "test");
     }
@@ -23,7 +23,7 @@ class AnchorBenchmark extends AthleticEvent
     /**
      * @iterations 10000
      */
-    public function slowIndexingAlgo()
+    public function linkUseDomDocument()
     {
         $this->linkWrap("test", "test");
     }
