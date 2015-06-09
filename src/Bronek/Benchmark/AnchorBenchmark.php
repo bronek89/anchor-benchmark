@@ -1,9 +1,13 @@
+/* Resets
+--------------------------------------------------------------------------------*/
 <?php
 
 namespace Bronek\Benchmark;
 
 use Athletic\AthleticEvent;
 
+/* General Styling and Structure
+--------------------------------------------------------------------------------*/
 class AnchorBenchmark extends AthleticEvent
 {
     public function setUp()
